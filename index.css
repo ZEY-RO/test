@@ -25,5 +25,11 @@ body {
 .first-img {
   background-image: url(https://www.baskinrobbins.com/content/dam/br/img/masthead/2020_W2/homepagemastheaddesktop-doordash-1440x600.jpg);
   background-size: cover;
-  height: 30em;
+  height: 500px;
+  background-position: center;
+}
+@media screen and (max-width: 800px) {
+  .first-img {
+    
+  }
 }
