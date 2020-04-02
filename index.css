@@ -1,3 +1,6 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
 .div1 {
   /*position: absolute;
   top: 50%;
@@ -6,6 +9,8 @@
   width: 1300px;
   height: 110%;*/
   background-color: rgb(252, 230, 233);
+  /*pink rgb(231,97,151)
+  blue rgb(19,69,128)*/
 }
 .div2 {
 }
@@ -28,8 +33,21 @@ body {
   height: 500px;
   background-position: center;
 }
+.menu {
+  text-align: center;
+}
+.tile {
+  color: rgb(19,69,128);
+  font-size: 25px;
+  margin: 4%;
+}
+
 @media screen and (max-width: 800px) {
-  .first-img {
-    
+  .div1 {
+    position: absolute;
+    top: 0px;
+  }
+  .tile{
+      font-size: 15px;
   }
 }
