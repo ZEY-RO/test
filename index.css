@@ -92,10 +92,17 @@ body {
 .rightcards {
   margin: 7% 0 4% 5%;
 }
-.horcards {
+.horcardsup{
   background-color: #d8c4b798;
-  padding: 2% 2% 2% 2%;
   margin: 1%;
+  padding-top: 2%;
+
+}
+.horcards {
+  
+  padding: 0% 2% 2% 2%;
+  margin-top: 0%;
+  
 }
 
 .horcards .card {
