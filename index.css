@@ -2,6 +2,7 @@ body {
   background-color: #d8c4b798;
   font-family: "Raleway", sans-serif;
   padding: 0% 2%;
+  padding-bottom: 3% ;
 }
 body::-webkit-scrollbar {
   width: 0.25rem;
